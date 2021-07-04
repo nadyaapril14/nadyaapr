@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+body {
+   font-family: 'Quicksand', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+main {
+   padding: 20px;
+   overflow: auto;
+}
+h2 {
+   color: #c449c2
+}
+ 
+h3 {
+   color: #34656d
+}
+header {
+   display: inline;
+}
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #867ae9;
+   text-align: center;
+   font-weight: bold;
+}
+nav {
+   display: flex;
+   background-color: #3f3697;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+nav a:hover {
+   font-weight: bold;
+}
+nav li {
+   display: inline-flex;
+   list-style-type: none;
+   margin-right: 20px;
+   justify-content: space-between;
+}
+
+.profile header {
+   text-align: center;
+}
+.featured-image {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+.profile img {
+   width: 200px;
+}
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-color: #FC92E3;
+   text-align: center;
+   color: white;
+}
+
+#content {
+   float: left;
+   width: 75%;
+}
+
+aside {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+}
+* {
+   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+th {
+   color:#564a4a;
+}
+ 
+.skills {
+   height: 100vh;
+}
